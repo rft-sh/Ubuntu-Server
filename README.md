@@ -1,5 +1,5 @@
 # Ubuntu-Server
-Ubuntu Server Setup Scripts
+## Ubuntu Server Setup Scripts
 
 ### netconfig.sh
 Interactive script to configure netplan on Ubuntu servers. Should work with 24.04 LTS and 26.02 LTS
