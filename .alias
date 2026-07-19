@@ -1,0 +1,3 @@
+alias ll = 'll -alhF'
+alias ... = '../../'
+alias .... = '../../../'
