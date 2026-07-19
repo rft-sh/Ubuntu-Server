@@ -18,9 +18,13 @@ rsync. Still offers files retention and rotation.
 ## Dotfiles
 
 ### .alias
-Common alias settings I use on every single server I manage.
+Common alias settings I use on every single server I manage.\
 `cat .alias >> ~/.bashrc`
 
+On modern Ubuntu Servers the alias for ll is already defined so you can use this to search for it and replace it
+adding the -h flag for human readable output.\
+`sed -i "s/^alias ll=.*/alias ll='ls -alhF'/" ~/.bashrc`
+
 ### .prompt
-A nice prompt I've been using in Bash environments for many, many years.
+A nice prompt I've been using in Bash environments for many, many years.\
 `cat .profile >> ~/.bashrc`
