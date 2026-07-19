@@ -14,3 +14,13 @@ settings configured in the script.
 ### backup-remote.sh
 Same Daily/Monthly Backup Script as backup.sh however this one is designed to send the backups off-server using
 rsync. Still offers files retention and rotation.
+
+## Dotfiles
+
+### .alias
+Common alias settings I use on every single server I manage.
+`cat .alias >> ~/.bashrc`
+
+### .prompt
+A nice prompt I've been using in Bash environments for many, many years.
+`cat .profile >> ~/.bashrc`
