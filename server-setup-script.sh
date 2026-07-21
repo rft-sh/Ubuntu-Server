@@ -18,8 +18,8 @@ cp ~/.bashrc ~/.profile ~/.profile-backup/
 cp /home/$USER/.bashrc /home/$USER/.profile /home/$USER/.profile-backup/
 
 # Set prompt
-curl -sf https://raw.githubusercontent.com/rft-sh/Ubuntu-Server/refs/heads/main/.prompt >> ~/.bashrc
-curl -sf https://raw.githubusercontent.com/rft-sh/Ubuntu-Server/refs/heads/main/.prompt >> /home/$USER/.bashrc
+curl -sf https://raw.githubusercontent.com/rft-sh/Ubuntu-Server/refs/heads/main/prompt.txt >> ~/.bashrc
+curl -sf https://raw.githubusercontent.com/rft-sh/Ubuntu-Server/refs/heads/main/prompt.txt >> /home/$USER/.bashrc
 
 # Change alias for LL
 sed -i "s/^alias ll=.*/alias ll='ls -alhF'/" ~/.bashrc
