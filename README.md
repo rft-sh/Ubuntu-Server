@@ -1,7 +1,12 @@
 # Ubuntu-Server
 ## Ubuntu Server Setup Scripts
 
-### <ins>netconfig.sh</ins>
+### <ins>server-setup-script.sh</ins>
+Server setup script for Ubuntu servers. Sets the prompt, aliases, MOTD, makes a /scripts folder in
+your home path for future needs, and finally runs the netplan.sh script if you need. Keep this and
+netplan.sh in the same directory when running them together.
+
+### <ins>netplan.sh</ins>
 Interactive script to configure netplan on Ubuntu servers. Should work with 24.04 LTS and 26.02 LTS
 Displays all available interfaces and their current IP information then allows you to select one, set
 either a Static IP or DHCP, and ends with an option to run netplan try which will revert changes in 2
