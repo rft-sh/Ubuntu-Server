@@ -20,6 +20,9 @@ settings configured in the script.
 Same Daily/Monthly Backup Script as backup.sh however this one is designed to send the backups off-server using
 rsync. Still offers files retention and rotation.
 
+### <ins>add-user.sh</ins>
+Simple interactive script to add a user to the server. Prompts if the new user should have sudo priveleges or not.
+
 ## Dotfiles
 
 ### <ins>alias.txt</ins>
