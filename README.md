@@ -20,6 +20,12 @@ settings configured in the script.
 Same Daily/Monthly Backup Script as backup.sh however this one is designed to send the backups off-server using
 rsync. Still offers files retention and rotation.
 
+### <ins>mysql-backup.sh</ins>
+Backup script for MySQL/MariaDB. Dumps each database to its own .sql file (consistent InnoDB dumps
+with routines, triggers and events), bundles them into a single timestamped tar.gz, and keeps only the
+newest N archives. Logs to /var/log/mysql-backup.log with optional syslog output, and skips rotation if
+any dump fails so good backups are never removed after a bad run. Run with `-h` for all options.
+
 ### <ins>add-user.sh</ins>
 Simple interactive script to add a user to the server. Prompts if the new user should have sudo priveleges or not.
 
