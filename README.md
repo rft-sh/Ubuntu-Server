@@ -12,7 +12,7 @@ Displays all available interfaces and their current IP information then allows y
 either a Static IP or DHCP, and ends with an option to run netplan try which will revert changes in 2
 minutes, netplan apply to make the changes permanent, or exit and verify the changes and apply them yourself.
 
-### <ins>backup.sh</ins>
+### <ins>server-backup.sh</ins>
 Daily/Monthly Backup Script for Linux servers. Uses compression, file retention, and rotation based on
 settings configured in the script.
 
